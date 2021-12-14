@@ -17,6 +17,7 @@ button {
 
 .contact_list {
   width: 400px;
+  margin: auto;
 }
 
 .contact_list_item {
