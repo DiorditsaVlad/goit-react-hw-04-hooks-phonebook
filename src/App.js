@@ -55,7 +55,7 @@ export default function App() {
   const getContacts = getVisibleContacts();
 
   return (
-    <div>
+    <div className="phonebook">
       <h1>Phonebook</h1>
       <ContactForm onSubmit={addToContact} />
       <h2>Contacts</h2>
